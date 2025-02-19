@@ -1,0 +1,18 @@
+.task-create-button {
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: calc(1em - 1px);
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    padding-inline: 16px 20px;
+    max-width: 100%;
+}
+.task-create-button::before{
+    content: "+";
+    margin-right: 10px;
+    color: grey;
+    font-size: 1.5em;
+    margin-top: 10px;
+}

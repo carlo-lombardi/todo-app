@@ -1,0 +1,12 @@
+.task-navbar {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+.task-navbar__left, .task-navbar__right {
+    display: flex;
+    padding: 8px;
+}
+.task-navbar__left div, .task-navbar__right div {
+    margin: 0px 5px;
+}
