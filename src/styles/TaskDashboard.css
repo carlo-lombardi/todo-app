@@ -1,0 +1,26 @@
+.task-dashboard__container {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    place-content: flex-start center;
+    overflow: clip;
+    min-height: 0;
+}
+.task-dashboard__items {
+    border-radius: 16px;
+    border-style: solid;
+    border-color: rgba(241, 243, 244,1);
+    border-width: 1px;
+    max-width: 680px;
+    min-width: 300px;
+    width: 80%;
+    height: 25vw; /*This is a bit wierd measure that i have to work with*/
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+
+}
+.task-dashboard__items:hover{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}

@@ -1,3 +1,6 @@
+.task-create-button__container {
+    padding: 0px 0px 20px 8px;
+}
 .task-create-button {
     padding: 10px;
     border-radius: 10px;

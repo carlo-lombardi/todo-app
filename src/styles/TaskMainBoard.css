@@ -1,4 +1,6 @@
+.task-main-board__container {
+}
 .task-main-board {
     display:flex;
-    padding: 0px 8px;
+    height: calc(100vh - 58px);
 }

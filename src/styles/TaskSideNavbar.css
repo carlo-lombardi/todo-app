@@ -1,3 +1,17 @@
 .task-side-navbar {
-    display: flex;
+    padding: 10px 8px;
+}
+
+.task-side-navbar__displayAllTask{
+    padding: 0px 24px 0px 16px;
+    background-color: #c2e7ff;
+    border-radius: 10px;
+    height: 32px;
+    align-content: center;
+}
+.task-side-navbar__displayOnlyhighlighs{
+
+}
+.task-side-navbar__createList{
+
 }

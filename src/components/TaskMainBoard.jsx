@@ -6,13 +6,13 @@ import '../styles/TaskMainBoard.css';
 
 const TaskMainBoard = () => {
     return (
-        <>
+        <div className="task-main-board__container">
             <TaskNavbar />
             <div className="task-main-board">
                 <TaskSideNavbar />
                 <TaskDashboard />
             </div>
-        </>
+        </div>
     );
 };
 
