@@ -1,6 +1,6 @@
 .task-main-board__container {
+    height: calc(100vh - 56px);
 }
 .task-main-board {
     display:flex;
-    height: calc(100vh - 58px);
 }

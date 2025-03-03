@@ -1,0 +1,14 @@
+.task-list {
+
+}
+
+.task-list__container {
+    display: flex;
+    justify-content: space-between;
+}
+.task-list__dropdownbutton, .task-list__arrowicon {
+    padding: 0px 24px 0px 16px;
+    border-radius: 30px;
+    height: 32px;
+    align-content: center;
+}

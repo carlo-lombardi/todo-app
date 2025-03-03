@@ -1,26 +1,121 @@
 .task-dashboard__container {
     flex-grow: 1;
     display: flex;
-    flex-flow: row nowrap;
     align-items: flex-start;
     place-content: flex-start center;
     overflow: clip;
     min-height: 0;
 }
-.task-dashboard__items {
+.task-dashboard__subcontainer {
     border-radius: 16px;
     border-style: solid;
     border-color: rgba(241, 243, 244,1);
     border-width: 1px;
     max-width: 680px;
     min-width: 300px;
-    width: 80%;
-    height: 25vw; /*This is a bit wierd measure that i have to work with*/
+    width: clamp(641px, 35vw, 678px);
+    height: clamp(472px, 35vw, 472px);
     background-color: #FFFFFF;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 
 }
-.task-dashboard__items:hover{
+.task-dashboard__subcontainer:hover{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
     cursor: pointer;
+}
+
+.task-dashboard__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    text-align: left;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 1 1;
+    margin-left: 16px;
+    height: 24px;
+    padding: 8px 0;
+    margin: 8px 10px 8px 16px;
+}
+
+.task-dashboard__addTask{
+    display: flex;
+    padding-block: 8px;
+    margin-left: 16px;
+    color: #1E64D3;
+    align-items: center;
+    font-weight: 400;
+
+}
+
+.task_icon_add {
+    margin-right: 10px;
+}
+.task-dashboard__tasks {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 16px;
+}
+.task-dashboard__tasksbody > img {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.task-dashboard__tasksbody > h3{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    animation-delay: .65s;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: none;
+    width: 224px;
+}
+.task-dashboard__tasksbody > h4 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    animation-delay: .65s;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: none;
+    width: 224px;
+}
+.task-dashboard__tasksfooter {
+    margin-top: auto;
+    height: 40px;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+
+}
+.task-dashboard__tasksfooter svg {
+    margin-right: 15px;
+    display: inline;
+
+}
+
+.task-dashboard__tasksfooter svg:hover {
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 10px;
 }

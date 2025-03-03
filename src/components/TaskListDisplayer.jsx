@@ -1,10 +1,18 @@
 import React from 'react';
-
+import '../styles/TaskListDisplayer.css';
 const TaskListDisplayer = () => {
     return (
         <div>
-            <h2>Task List</h2>
-            
+            <ul>
+                <li>
+                    <input type="checkbox" id="myCheckbox" />
+                    <label for="myCheckbox"> Mis tareas</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="myCheckbox2" />
+                    <label for="myCheckbox"> Example list 1</label>
+                </li>
+            </ul>
         </div>
     );
 };

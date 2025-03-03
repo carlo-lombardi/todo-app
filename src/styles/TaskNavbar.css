@@ -2,11 +2,86 @@
     display: flex;
     justify-content: space-between;
     background: transparent;
+    padding: 8px;
+    height: 48px;
+    font-size: 22px;
 }
 .task-navbar__left, .task-navbar__right {
     display: flex;
-    padding: 8px;
+    align-items: center;
 }
 .task-navbar__left div, .task-navbar__right div {
-    margin: 0px 5px;
+    margin: 0px 10px;
+    font-size: 22px;
+}
+.task-navbar__left {
+    padding-right: 10px ;
+}
+.task-navbar__burger {
+    height: 24px;
+    width: 24px;
+    margin: 0 4px !important;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.task-navbar__logo {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+}
+.task-navbar__logo > img{
+    height: 50px;
+    width: 50px;
+    margin-left: -5px;
+}
+.task-navbar__title {
+    font-size: 22px;
+    line-height: 48px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    padding-left: 4px;
+    margin: 0 !important;
+}
+
+.task-navbar__toggleButton {
+    display: flex;
+    font-size: 22px;
+}
+
+.task-navbar__toggleButton__calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    height: 38px;
+    padding: 0 13px 0 13px;
+    border: 1px solid #747775;
+    border-top-left-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+}
+
+.task-navbar__toggleButton__task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    height: 38px;
+    padding: 0 15px 0 15px;
+    border-top: 1px solid #747775;
+    border-bottom: 1px solid #747775;
+    border-right: 1px solid #747775;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+}
+.task-navbar__iconProfile > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.task-navbar__toggleButton__task{
+    background-color: #B3D7EF;
 }
