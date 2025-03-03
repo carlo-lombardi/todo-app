@@ -24,7 +24,7 @@ const TaskNavbar = () => {
                 <div className="task-navbar__help"><MdHelpOutline /></div>
                 <div className="task-navbar__toggleButton">
                     <div className="task-navbar__toggleButton__calendar"><GoCalendar /></div>
-                    <div className="task-navbar__toggleButton__task" actived><IoMdCheckmarkCircleOutline /></div>
+                    <div className="task-navbar__toggleButton__task"><IoMdCheckmarkCircleOutline /></div>
                 </div>
                 <div className="task-navbar__squares"><PiSquaresFourFill /></div>
                 <div className="task-navbar__iconProfile">
